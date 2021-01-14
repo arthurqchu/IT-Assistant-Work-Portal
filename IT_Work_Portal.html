@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+
+.center {
+  margin: 16px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body {
+    background-color: lightslategray;
+    margin: 12px;
+    padding-top: 90px;
+}
+h1 {
+    color:whitesmoke;
+    text-align: center;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+.button {
+  border: none;
+  color: whitesmoke;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 12px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  box-shadow: -5px 5px darkslategray;
+}
+
+.button1 {
+  background-color:#4CAF50; 
+  color: whitesmoke; 
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+
+}
+
+.button1:hover {
+  background-color: whitesmoke;
+  color: #4CAF50;
+  border-radius: 6px;
+
+}
+
+.button2 {
+  background-color: #008CBA; 
+  color: whitesmoke; 
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+
+}
+
+.button2:hover {
+  background-color: whitesmoke;
+  color: #008CBA;
+  border-radius: 6px;
+
+}
+
+.button3 {
+  background-color: #008CBA; 
+  color: whitesmoke; 
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+
+}
+
+.button3:hover {
+  background-color: whitesmoke;
+  color: #008CBA;
+  border-radius: 6px;
+
+}
+
+</style>
+</head>
+<body>
+
+<h1>Workplace</h1>
+
+
+<button class="button button1 center" onclick="visitSite(1)">Event Log Form</button>
+<button class="button button2 center" onclick="visitSite(2)">Daily Activities and Inventory</button>
+<button class="button button3 center" onclick="visitSite(3)">ScheduleFly</button>
+
+<script>
+    function visitSite(site){
+        switch(site){
+            case 1:
+                window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO0F20YJT8FxPpzRd8mwjmedUNFpPWktQWlBGV1VIOUM1QUdIVVRBNE9WUS4u',"_blank");
+            case 2:
+                window.open('https://wavetulane.sharepoint.com/:x:/r/sites/IT-StudentWorkers/_layouts/15/Doc.aspx?sourcedoc=%7Bcb301c16-72d1-40f8-b7b9-7ad592e77893%7D&action=edit&activeCell=%27Daily%20Activities%27!O4&wdInitialSession=3ded8c4e-fdd9-4d09-a6db-1deaeb4fe018&wdRldC=1&cid=a6e9c5cb-ec3a-4748-bdd1-3615b903a694',"_blank");
+            case 3:
+                window.open('https://app.schedulefly.com/schedule.aspx?view=0',"_blank");
+        }
+    }
+</script>
+
+
+</body>
+</html>
