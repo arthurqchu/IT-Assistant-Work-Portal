@@ -26,7 +26,7 @@ h1 {
     top:0;
 }
 .button {
-  border: none;
+  border: 1px solid whitesmoke;
   color: whitesmoke;
   padding: 16px 32px;
   text-align: center;
@@ -38,51 +38,44 @@ h1 {
   cursor: pointer;
 
   box-shadow: -5px 5px darkslategray;
+
+  border-radius: 6px;
+
 }
 
 .event_form {
   background-color:teal; 
   color: whitesmoke; 
-  border: 1px solid whitesmoke;
-  border-radius: 6px;
-  margin-top: 75px;
 
 }
 
 .event_form:hover {
   background-color: whitesmoke;
   color: #4CAF50;
-  border-radius: 6px;
 
 }
 
-.paper_inventory {
+.dela_inventory {
   background-color:teal; 
   color: whitesmoke; 
-  border: 1px solid whitesmoke;
-  border-radius: 6px;
-
 }
 
-.paper_inventory:hover {
+.dela_inventory:hover {
   background-color: whitesmoke;
   color: #4CAF50;
-  border-radius: 6px;
 
 }
 
-.full_inventory {
+
+.dela_rounds {
   background-color:teal; 
   color: whitesmoke; 
-  border: 1px solid whitesmoke;
-  border-radius: 6px;
 
 }
 
-.full_inventory:hover {
+.dela_rounds:hover {
   background-color: whitesmoke;
   color: #4CAF50;
-  border-radius: 6px;
 
 }
 
@@ -95,9 +88,9 @@ h1 {
 <h1>DELA Portal</h1>
 
 
-<button class="button event_form center" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO0F20YJT8FxPpzRd8mwjmedUNFpPWktQWlBGV1VIOUM1QUdIVVRBNE9WUS4u','_blank')">Event Log Form</button>
-<button class="button paper_inventory center" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO6Y_zTT1Lg9FmP1WUAr11C1UNTJENU1MSUlaVUlCTktPR1lCVVpZQkNXUS4u','_blank')">Paper Inventory</button>
-<button class="button full_inventory center" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO6Y_zTT1Lg9FmP1WUAr11C1UNElDMUlWUlZIRVJNMEFXNFlNNVpPNTFOTS4u','_blank')">Full Inventory</button>
+<button class="button event_form center" style="margin-top: 75px;" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO0F20YJT8FxPpzRd8mwjmedUNFpPWktQWlBGV1VIOUM1QUdIVVRBNE9WUS4u','_blank')">Event Log Form</button>
+<button class="button dela_rounds center" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO6Y_zTT1Lg9FmP1WUAr11C1UMjI4MEo3RllENzIwVFhJVUQ5UE00OFo3Ti4u','_blank')">DELA Rounds</button>
+<button class="button dela_inventory center" onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=g4HpndklE0ufw03lSJwfO6Y_zTT1Lg9FmP1WUAr11C1UNElDMUlWUlZIRVJNMEFXNFlNNVpPNTFOTS4u','_blank')">DELA Inventory</button>
 
 <p style = "text-align:center; color:white; margin-top: 50px;" >Help Desk: (504) 862-8888</p>
 
